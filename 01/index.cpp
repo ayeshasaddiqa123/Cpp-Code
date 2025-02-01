@@ -2,7 +2,7 @@
     C++ is an object-oriented programming language used for developing softwares  that instructs hardware what to do
           1.it provides the facility to work with objects and classes.
           2.It has its syntax.
-    3.The boiler plate code for all C++ programs is:
+    3.The boiler plate code for all C++ programs  is:
 
            #include<iostrem>
            using nmespace std;
@@ -17,7 +17,7 @@
           c.Run time error
     5.COMMENTS are used to make the code more readable though they do not execute.There are two types of comments:
            a.single line comment (its syntax is //comments)
-           b.multi line comment (e.g I write this code in multi line comments)
+           b.multi line comment (e.g I write this intro of c++ in multi line comments)
 
 
     LETS START WITH THE FIRST MOST BASIC PROGRAM IN C++
