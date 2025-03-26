@@ -24,7 +24,7 @@
 
            */
  
-            //pROGRAM TO PRINT "Welcome to coding worlg"
+            //pROGRAM TO PRINT "Welcome to coding world!"
 
 #include<iostream> // include the iostream library (a preprocessor directive)
 using namespace std; // use the stanadard namespace
