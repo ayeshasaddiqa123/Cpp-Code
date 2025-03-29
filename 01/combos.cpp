@@ -9,6 +9,7 @@ int main ()               // main function from where execution starts
         cin>>a>>b>>c;
 
         if(a!=b && b!=c && c!=a)
+            
              {
                 cout<<a<<b<<c<<"\t";
                 cout<<a<<c<<b<<"\t";
@@ -49,7 +50,7 @@ int main ()               // main function from where execution starts
                   }          
              }
 
-       return 0;  //return 0 to the operatin system
+       return 0;  //return 0 to the operating system
 
 
     }
