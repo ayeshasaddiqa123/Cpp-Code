@@ -1,6 +1,6 @@
 
 /*Write a program that inputs a six digit number and displays it in reverse order as 458762 to 267854.*/
-#include<iostream>       // include the iostream library (a preprocessor directive)
+#include<iostream>     // include the iostream library (a preprocessor directive)
 using namespace std;     // use the stanadard namespace
 int main ()               // main function from where execution starts
 {
