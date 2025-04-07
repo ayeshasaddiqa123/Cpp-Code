@@ -5,7 +5,7 @@ int main ()               // main function from where execution starts
 {
     int a, b;      //decalre two variables
     cout<<"Enter two numbers : ";     //prompt the user for input
-    cin>>a>>b;              //input values of integer type
+    cin>>a>>b;                 //input values of integer type
 
     int max,lcm;
     if(a>=b)
