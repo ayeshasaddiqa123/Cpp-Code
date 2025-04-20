@@ -2,7 +2,7 @@
 
 #include<iostream>    //include the iostream library(a preprocessor directive)
 using namespace std;  //use standard namespace
-int main()            //main function from where execution start
+int main()            //main function from where execution  
 {
 	const  int size=5;
 	int i;
