@@ -16,7 +16,7 @@ int main()            //main function from where execution start
 		   if(age[i]>50 && age[i]<60)
 		     count++;
 }
-	
+	// print ages of persons between 50 and 60
 	cout<<"Age of persons between 50 and 60 range is : "<<count;
 	
 	return 0; //retun 0 to operating system
