@@ -128,3 +128,28 @@ void test( int n)
 }
  
  
+
+
+
+// program 6
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+int fact (int);
+int main ()               // main function from where execution starts
+{
+	int n;
+	cout<<"Enter a number to find factorial :";
+	cin>>n;
+	int c=fact(n);
+	cout<<"Factorial of number is : "<<c;
+	
+	
+   return 0; //return 0 to operating system
+}
+int fact (int a)
+{
+	if (a==0)
+	return 1;
+	else
+	return a* fact(a-1);
+}
