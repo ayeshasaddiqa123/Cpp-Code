@@ -60,3 +60,23 @@ int main ()               // main function from where execution starts
 
    return 0; //return 0 to operating system
 }
+
+
+// program 4
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+int main ()               // main function from where execution starts
+{
+	int marks[5];
+	int*ptr;
+	cout<<"Enter an array of five marks :";
+	for(int i=0;i<5;i++) {
+	
+	cin>>marks[i];	
+}
+ptr=&marks[4];
+for(int i=0;i<5;i++)
+cout<<*ptr--<<endl;
+
+   return 0; //return 0 to operating system
+}
