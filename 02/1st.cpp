@@ -34,3 +34,28 @@ cout<<"------------";
 	 return 0; //return 0 to operating system
 	 
 }
+
+
+
+
+
+// program 5
+
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+int main ()               // main function from where execution starts
+{
+	for(int i=0;i<6;i++) {  // number of rows
+		for(int s=0;s<i;s++){   // give spaces
+		
+			cout<<" ";}
+			for(int j=1;j<=6-i;j++){  // number of columns
+			
+			cout<<j;}
+
+cout<<endl;
+}
+
+
+   return 0; //return 0 to operating system
+}
