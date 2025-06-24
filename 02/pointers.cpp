@@ -80,3 +80,20 @@ cout<<*ptr--<<endl;
 
    return 0; //return 0 to operating system
 }
+
+
+
+// program 5
+
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+int main ()               // main function from where execution starts
+{
+	char name[20];
+	char *ptr;
+	cout<<"Enter your name :";
+	cin.get(name,20);
+	 ptr =name;
+	 cout<<"Your name is : "<<ptr;
+   return 0; //return 0 to operating system
+}
