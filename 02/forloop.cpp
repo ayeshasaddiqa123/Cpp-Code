@@ -28,3 +28,22 @@ int main ()               // main function from where execution starts
     }
               return 0; //return 0 to operating system
 }
+
+
+
+// program 2
+
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+int main ()               // main function from where execution starts
+{
+	for( int i=1 ; i<=6 ; i++) {
+		for(int j=i ; j>=1 ; j--) {
+			cout<<"*";
+}
+
+		cout<<endl;
+}
+
+   return 0; //return 0 to operating system
+}
