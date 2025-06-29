@@ -47,3 +47,46 @@ int main ()               // main function from where execution starts
 
    return 0; //return 0 to operating system
 }
+
+
+
+//program 3
+
+
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+void prime(int);
+int main ()               // main function from where execution starts
+{
+	int n;
+	cout<<"Enter a number :";
+	cin>>n;
+	prime(n);
+	
+   return 0; //return 0 to operating system
+}
+void prime(int a)
+{
+	int p=1;
+	for(int c=2;c<=a/2;c++) 
+	
+	
+		if(a%c==0)
+		{
+		   p=0;	
+		}
+if (a%2==0 && p==0)
+cout<<a<<"is even but not prime.";
+
+else if (a%2!=0 && p==0)
+cout<<a<<"is odd but not prime.";
+
+
+else if (a%2!=0 && p==1)
+cout<<a<<"is odd but  prime.";
+
+
+else if (a%2==0 && p==1)
+cout<<a<<"is even but  prime.";
+
+}
