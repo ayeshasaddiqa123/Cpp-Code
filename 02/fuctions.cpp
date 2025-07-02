@@ -153,3 +153,85 @@ int fact (int a)
 	else
 	return a* fact(a-1);
 }
+
+
+// program 7
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+struct student
+{
+	int rollno;
+	char grade;
+	
+};
+void show(student s);
+
+int main ()               // main function from where execution starts
+
+
+{
+student s;
+
+cout<<"Enter roll no and grade  :";
+cin>>s.rollno>>s.grade;
+
+show (s);	
+	
+	
+   return 0; //return 0 to operating system
+}
+void show( student s)
+{
+	cout<<"Rol nbumber is :"<<s.rollno;
+	cout<<"Grade is :"<<s.grade;
+}
+
+
+
+
+
+// program 8
+
+#include<iostream>     // include the iostream library (a preprocessor directive)
+using namespace std;     // use the stanadard namespace
+struct time
+{
+	int hours;
+	int minutes;
+	int seconds;
+	
+};
+void show(time a,time b);
+
+int main ()               // main function from where execution starts
+
+
+{
+time arr[2];
+for(int i=0;i<2;i++) {
+	
+cout<<"Enter time in hours ,minutes and seconds format   :";
+cin>>arr[i].hours >>arr[i].minutes>>arr[i].seconds;
+
+}
+show (arr[0],arr[1]);	
+	
+	
+   return 0; //return 0 to operating system
+}
+void show( time a,time b)
+
+{
+	int h ,sec, min,x;
+	
+	sec=a.seconds+b.seconds;
+	x=sec/60;
+	sec%=60;
+	
+	min=a.minutes+b.minutes+x;
+	h=a.hours+b.hours+min/60;
+	min%60;
+	
+	cout<<"total time is :"<<h<<":"<<min<<":"<<sec;	
+  
+}
